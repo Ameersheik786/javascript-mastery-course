@@ -57,3 +57,34 @@ while (count < 5) {
   count++;
 }
 ```
+
+### Do...While Loop
+Use when you want to execute the loop at least once.
+```javascript
+let result = '';
+let i = 0;
+do {
+  result += i + ' ';
+  i++;
+} while (i < 5);
+console.log(result);
+```
+
+### 
+
+## Break and Continue
+
+```javascript
+for (let i = 0; i < 10; i++) {
+  if (i === 5) {
+    break; // Exit loop when i is 5
+  }
+  if (i % 2 === 0) {
+    continue; // Skip even numbers
+  }
+  console.log(i); // Logs odd numbers less than 5
+}
+```
+
+
+

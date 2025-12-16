@@ -34,6 +34,7 @@ let product = 10 * 2;    // 20
 let quotient = 10 / 2;   // 5
 let remainder = 10 % 3;  // 1 (Modulus)
 
+
 // Comparison
 console.log(5 == "5");   // true (loose equality, checks value)
 console.log(5 === "5");  // false (strict equality, checks value AND type)
